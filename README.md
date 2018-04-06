@@ -4,7 +4,6 @@
 # Model
 ### **Deformable-ConvNets ★★**
 **[Paper]** Deformable Convolutional Networks <Br>
-  
 **[Year]** ICCV 2017 Oral<Br>
 **[Authors]**	[Jifeng Dai](http://www.jifengdai.org/), [Haozhi Qi](http://haozhi.io/), [Yuwen Xiong](http://www.cs.toronto.edu/~yuwen/), [Yi Li](https://liyi14.github.io/), [Guodong Zhang](http://www.cs.toronto.edu/~gdzhang/), [Han Hu](https://sites.google.com/site/hanhushomepage/), [Yichen Wei](https://www.microsoft.com/en-us/research/people/yichenw/) <Br>
  **[Pages]** https://github.com/msracver/Deformable-ConvNets <Br>
