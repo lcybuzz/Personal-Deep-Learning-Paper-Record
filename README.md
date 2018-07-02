@@ -4,6 +4,14 @@
 - [Network](#network)
 
 # Network
+### **ResNeXt ★★**
+**[Paper]** Aggregated Residual Transformations for Deep Neural Networks <Br>
+**[Year]** arXiv 1611 <Br>
+**[Authors]** [Saining Xie](http://vcl.ucsd.edu/~sxie/), [Ross Girshick](http://www.rossgirshick.info/), [Piotr Dollár](https://pdollar.github.io/), [Zhuowen Tu](http://pages.ucsd.edu/~ztu/), [Kaiming He](http://kaiminghe.com/) <Br>
+ **[Pages]** https://github.com/facebookresearch/ResNeXt <Br>
+ **[Description]**<Br>
+1) ResNet的改进版, 复杂度不变的情况下提升了精度. 只看了其它blog的解析, 自己没读 
+  
 ### **Deformable-ConvNets ★★**
 **[Paper]** Deformable Convolutional Networks <Br>
 **[Year]** ICCV 2017 Oral<Br>
