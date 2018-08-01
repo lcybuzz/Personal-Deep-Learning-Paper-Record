@@ -60,5 +60,5 @@
 **[Paper]** Squeeze-and-Excitation Networks <Br>
 **[Year]** CVPR 2018 <Br>
 **[Authors]**  Jie Hu, Li Shen, Gang Sun<Br>
- **[Pages]**https://github.com/hujie-frank/SENet <Br>
- **[Description]**<Br>
+**[Pages]** https://github.com/hujie-frank/SENet <Br>
+**[Description]** <Br>
