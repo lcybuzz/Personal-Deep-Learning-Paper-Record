@@ -9,6 +9,7 @@
   - ★★ <Br>
   **[ResNeXt]**, **[Deformable-ConvNets]**,**[DenseNet]** <Br>
   - ★ <Br>
+  **[Residual Attention Network]** <Br>
   
 # Network
 ### **RAM**
