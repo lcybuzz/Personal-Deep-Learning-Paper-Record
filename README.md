@@ -55,6 +55,9 @@
 **[Authors]** Fei Wang, [Mengqing Jiang](https://github.com/Jmq14), Chen Qian, [Shuo Yang](http://shuoyang1213.me/), Chen Li, Honggang Zhang, [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/), [Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml) <Br>
  **[Pages]** https://github.com/fwang91/residual-attention-network <Br>
  **[Description]**<Br>
+1) 提出了一个形式上与resnet很相似的结构: resudual attention net, 将attention机制结合进前馈深度神经网络中. <Br>
+2) 所谓residual attention network, 即采用类似residual block的(1+M(x))*F(x)的形式, 而不是直接将attention map M(x)直接与feature map相乘, 避免了使feature数值越来越小的问题. Attention mask branch采用了encoder-decoder的结构. <Br>
+3) 虽然本文看上去就是将resnet中的high way一支改成encoder-decoder结构的mask branch, 但其思路和论述的角度比较独特, 值得学习. 从结果上看attention mask branch的确能起到抑制背景, 增强前景feature的效果, 感觉挺神奇. 不过, 这一机制能否用到如语义分割等其他任务上存疑.<Br>
   
 ### **SENet**
 **[Paper]** Squeeze-and-Excitation Networks <Br>
