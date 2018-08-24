@@ -9,7 +9,7 @@
   - ★★ <Br>
   **[ResNeXt]**, **[Deformable-ConvNets]**,**[DenseNet]** <Br>
   - ★ <Br>
-  **[Residual Attention Network]** <Br>
+  **[Residual Attention Network]**, **[SENet]** <Br>
   
 # Network
 ### **RAM**
@@ -60,9 +60,12 @@
 2) 所谓residual attention network, 即采用类似residual block的(1+M(x))*F(x)的形式, 而不是直接将attention map M(x)直接与feature map相乘, 避免了使feature数值越来越小的问题. Attention mask branch采用了encoder-decoder的结构. <Br>
 3) 虽然本文看上去就是将resnet中的high way一支改成encoder-decoder结构的mask branch, 但其思路和论述的角度比较独特, 值得学习. 从结果上看attention mask branch的确能起到抑制背景, 增强前景feature的效果, 感觉挺神奇. 不过, 这一机制能否用到如语义分割等其他任务上存疑.<Br>
   
-### **SENet**
+### **SENet ★☆**
 **[Paper]** Squeeze-and-Excitation Networks <Br>
 **[Year]** CVPR 2018 <Br>
 **[Authors]**  Jie Hu, Li Shen, Gang Sun<Br>
 **[Pages]** https://github.com/hujie-frank/SENet <Br>
 **[Description]** <Br>
+1) 粗读, 提出了一个修正channel间feature的模块, 该模块可以嵌入到任意网络模型中. <Br>
+2) 方法很简单, squeeze部分将每个channel的feature求和(C*H*W -> C*1), excitation部分用两个全连接层计算每个channel的权重, 最后用这个权重对feature加权. <Br>
+3) 主要用于分类中, 实验细节没看. <Br>
