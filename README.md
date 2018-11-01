@@ -9,7 +9,7 @@
   - ★★ <Br>
   **[ResNeXt]**, **[Deformable-ConvNets]**,**[DenseNet]** <Br>
   - ★ <Br>
-  **[Residual Attention Network]**, **[SENet]** <Br>
+  **[Residual Attention Network]**, **[SENet]**, **[GENet]** <Br>
   
 # Network
 ### **RAM**
@@ -69,3 +69,14 @@
 1) 粗读, 提出了一个修正channel间feature的模块, 该模块可以嵌入到任意网络模型中. <Br>
 2) 方法很简单, squeeze部分将每个channel的feature求和(C*H*W -> C*1), excitation部分用两个全连接层计算每个channel的权重, 最后用这个权重对feature加权. <Br>
 3) 主要用于分类中, 实验细节没看. <Br>
+  
+### **GENet ★☆**
+**[Paper]** Gather-Excite: Exploiting Feature Context in Convolutional Neural Networks <Br>
+**[Year]** NIPS 2018 <Br>
+**[Authors]**  Jie Hu, Li Shen, [Samuel Albanie](http://www.robots.ox.ac.uk/~albanie/), Gang Sun, [Andrea Vedaldi](http://www.robots.ox.ac.uk/~vedaldi/)<Br>
+**[Pages]**https://github.com/hujie-frank/GENet <Br>
+**[Description]** <Br>
+1) 在SENet的基础上, 提出了gather-excite操作. Gather就是收集long-range空间信息的操作, excite就是将gather的信息分配给local feature的操作. 作者认为GE操作可以更有效地挖掘context信息, 并增加feature的可复用性. <Br>
+2) Gather操作可以有多种形式, 如无参数的average pooling(GE-), 有参数的多级depth-wise卷积(GE), 全局depth-wise卷积(GE+)等. 其中无参数的策略对性能有轻微提升, GE+性能最好, 所需参数最多. Excite操作就是把gather的结果经过scale后与原feature的过程. <Br>
+3) 方法主要在分类任务上进行验证. 思路和做法很简单, 论述方法值得学习. <Br>
+
