@@ -3,13 +3,19 @@
 # Table of Contents
 - [Network](#network)
 - [Classification](#classification)
+- [Theory](#theory)
 # Rank
-- Human Segmentation <Br>
+- Network <Br>
   - ★★★ <Br>
   - ★★ <Br>
   **[ResNeXt]**, **[Deformable-ConvNets]**,**[DenseNet]** <Br>
   - ★ <Br>
   **[Residual Attention Network]**, **[SENet]**, **[GENet]** <Br>
+- Theory <Br>
+  - ★★★ <Br>
+  - ★★ <Br>
+    **[ERF]** <Br>
+  - ★ <Br>
   
 # Network
 ### **RAM**
@@ -80,3 +86,12 @@
 2) Gather操作可以有多种形式, 如无参数的average pooling(GE-), 有参数的多级depth-wise卷积(GE), 全局depth-wise卷积(GE+)等. 其中无参数的策略对性能有轻微提升, GE+性能最好, 所需参数最多. Excite操作就是把gather的结果经过scale后与原feature的过程. <Br>
 3) 方法主要在分类任务上进行验证. 思路和做法很简单, 论述方法值得学习. <Br>
 
+# Theory
+### **ERF ★★**
+**[Paper]** Understanding the Effective Receptive Field in Deep Convolutional Neural Networks <Br>
+**[Year]** NIPS 2016 <Br>
+**[Authors]**  [Wenjie Luo](http://www.cs.toronto.edu/~wenjie/), [Yujia Li](http://www.cs.toronto.edu/~yujiali/), [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/), [Richard Zemel](http://www.cs.toronto.edu/~zemel/inquiry/home.php）<Br>
+**[Pages]** <Br>
+1) 从理论上分析了CNN中的有效感受野其实比理论感受野小很多, 且呈现高斯分布的现象. <Br>
+2) 很多数学没读懂, 有去复习概率和组合数学的冲动>_<. <Br>
+**[Description]** <Br>
