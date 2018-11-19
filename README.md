@@ -93,8 +93,8 @@
 **[Authors]**  [Alex Kendall](https://alexgkendall.com/), [Yarin Gal](http://www.cs.ox.ac.uk/people/yarin.gal/website/), [Roberto Cipolla](https://mi.eng.cam.ac.uk/~cipolla/)<Br>
 **[Pages]** https://github.com/alexgkendall/multitaskvision<Br>
 **[Description]** <Br>
-1) 提出了一种用不确定度为多任务学习中每个loss赋权重的方法. 作者证从多任务的最大似然估计出发, 证明了在多任务学习中, 分类和回归问题的loss应该用$\frac {1}{\sigma^2}$来对其进行加权, 其中$\sigma$表示该任务的不确定度. 实际应用中, 作者通过为每个任务分别学习其$\log\sigma^2$来自适应地得到每个loss的weight. <Br>
-2) 分类任务加入一$\frac {1} {\sigma^2}$作为scale factor的原理没有搞清楚. <Br>
+1) 提出了一种用不确定度为多任务学习中每个loss赋权重的方法. 作者证从多任务的最大似然估计出发, 证明了在多任务学习中, 分类和回归问题的loss应该用1/sigma^2来对其进行加权, 其中sigma表示该任务的不确定度. 实际应用中, 作者通过为每个任务分别学习其log sigma来自适应地得到每个loss的weight. <Br>
+2) 分类任务加入一1/sigma^2作为scale factor的原理没有搞清楚. <Br>
 
 # Theory
 ### **ERF ★★**
