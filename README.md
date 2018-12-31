@@ -2,7 +2,7 @@
 # Under Construction
 # Table of Contents
 - [Network](#network)
-- [Learning](#learning)
+- [Optimization](#optimization)
 - [Theory](#theory)
 # Rank
 - Network <Br>
@@ -14,7 +14,7 @@
 - Theory <Br>
   - ★★★ <Br>
   - ★★ <Br>
-    **[ERF]** <Br>
+    **[ERF]**, **[Convolution Arithmetic]** <Br>
   - ★ <Br>
   
 # Network
@@ -86,7 +86,7 @@
 2) Gather操作可以有多种形式, 如无参数的average pooling(GE-), 有参数的多级depth-wise卷积(GE), 全局depth-wise卷积(GE+)等. 其中无参数的策略对性能有轻微提升, GE+性能最好, 所需参数最多. Excite操作就是把gather的结果经过scale后与原feature的过程. <Br>
 3) 方法主要在分类任务上进行验证. 思路和做法很简单, 论述方法值得学习. <Br>
 
-# Learning
+# Optimization
 ### **Uncertainty Weighting ★★**
 **[Paper]** Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics <Br>
 **[Year]** CVPR 2018 <Br>
@@ -105,3 +105,11 @@
 **[Description]** <Br>
 1) 从理论上分析了CNN中的有效感受野其实比理论感受野小很多, 且呈现高斯分布的现象. <Br>
 2) 很多数学没读懂, 有去复习概率和组合数学的冲动>_<. <Br>
+  
+ ### **Convolution Arithmetic ★★**
+**[Paper]** A guide to convolution arithmetic for deep learning <Br>
+**[Year]** technical report, arXiv 1603 <Br>
+**[Authors]**  [Vincent Dumoulin](https://vdumoulin.github.io/), Francesco Visin <Br>
+**[Pages]** https://github.com/vdumoulin/conv_arithmetic <Br>
+**[Description]** <Br>
+  1) 讨论了卷积, 池化, 转置卷积的输入输出关系, 供需要时查阅 <Br>
