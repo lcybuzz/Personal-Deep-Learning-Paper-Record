@@ -2,15 +2,23 @@
 # Under Construction
 # Table of Contents
 - [Network](#network)
+- [General](#general)
 - [Optimization](#optimization)
 - [Theory](#theory)
 # Rank
 - Network <Br>
   - ★★★ <Br>
   - ★★ <Br>
-  **[ResNeXt]**, **[Deformable-ConvNets]**,**[DenseNet]** <Br>
+  **[ResNeXt]**, **[DenseNet]** <Br>
   - ★ <Br>
   **[Residual Attention Network]**, **[SENet]**, **[GENet]** <Br>
+  
+- General <Br>
+  - ★★★ <Br>
+  - ★★ <Br>
+  **[Deformable-ConvNets]** <Br>
+  - ★ <Br>
+  **[OctaveConv]**
 - Theory <Br>
   - ★★★ <Br>
   - ★★ <Br>
@@ -35,16 +43,6 @@
  **[Pages]** https://github.com/facebookresearch/ResNeXt <Br>
  **[Description]**<Br>
 1) ResNet的改进版, 复杂度不变的情况下提升了精度. 只看了其它blog的解析, 自己没读 
-  
-### **Deformable-ConvNets ★★**
-**[Paper]** Deformable Convolutional Networks <Br>
-**[Year]** ICCV 2017 Oral<Br>
-**[Authors]**	[Jifeng Dai](http://www.jifengdai.org/), [Haozhi Qi](http://haozhi.io/), [Yuwen Xiong](http://www.cs.toronto.edu/~yuwen/), [Yi Li](https://liyi14.github.io/), [Guodong Zhang](http://www.cs.toronto.edu/~gdzhang/), [Han Hu](https://sites.google.com/site/hanhushomepage/), [Yichen Wei](https://www.microsoft.com/en-us/research/people/yichenw/) <Br>
- **[Pages]** https://github.com/msracver/Deformable-ConvNets <Br>
- **[Description]**<Br>
-1) 传统CNN对几何形变的适应力差, 这是标准卷积中的规则格点采样造成的. 为此论文提出了deformable convolution和deformable ROI pooling
-2) 具体做法很简洁, 即用卷积层从前一层的feature map中学习到每个位置的offsets, 整个过程是完全可微的.
-3) 实验效果很好. 论文可以之后精读
 
 ### **DenseNet ★★**
 **[Paper]** Densely Connected Convolutional Networkss <Br>
@@ -85,6 +83,29 @@
 1) 在SENet的基础上, 提出了gather-excite操作. Gather就是收集long-range空间信息的操作, excite就是将gather的信息分配给local feature的操作. 作者认为GE操作可以更有效地挖掘context信息, 并增加feature的可复用性. <Br>
 2) Gather操作可以有多种形式, 如无参数的average pooling(GE-), 有参数的多级depth-wise卷积(GE), 全局depth-wise卷积(GE+)等. 其中无参数的策略对性能有轻微提升, GE+性能最好, 所需参数最多. Excite操作就是把gather的结果经过scale后与原feature的过程. <Br>
 3) 方法主要在分类任务上进行验证. 思路和做法很简单, 论述方法值得学习. <Br>
+
+# General
+
+### **Deformable-ConvNets ★★**
+**[Paper]** Deformable Convolutional Networks <Br>
+**[Year]** ICCV 2017 Oral<Br>
+**[Authors]**	[Jifeng Dai](http://www.jifengdai.org/), [Haozhi Qi](http://haozhi.io/), [Yuwen Xiong](http://www.cs.toronto.edu/~yuwen/), [Yi Li](https://liyi14.github.io/), [Guodong Zhang](http://www.cs.toronto.edu/~gdzhang/), [Han Hu](https://sites.google.com/site/hanhushomepage/), [Yichen Wei](https://www.microsoft.com/en-us/research/people/yichenw/) <Br>
+ **[Pages]** https://github.com/msracver/Deformable-ConvNets <Br>
+ **[Description]**<Br>
+1) 传统CNN对几何形变的适应力差, 这是标准卷积中的规则格点采样造成的. 为此论文提出了deformable convolution和deformable ROI pooling
+2) 具体做法很简洁, 即用卷积层从前一层的feature map中学习到每个位置的offsets, 整个过程是完全可微的.
+3) 实验效果很好. 论文可以之后精读
+
+### **OctaveConv ★**
+**[Paper]** Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution <Br>
+**[Year]** arXiv 1904<Br>
+**[Authors]**	[Yunpeng Chen](https://cypw.github.io/), Haoqi Fan, Bing Xu, [Zhicheng Yan](https://sites.google.com/view/zhicheng-yan), [Yannis Kalantidis](http://www.skamalas.com/), [Marcus Rohrbach](http://rohrbach.vision/), [Shuicheng Yan](https://www.ece.nus.edu.sg/stfpage/eleyans/), [Jiashi Feng](https://sites.google.com/site/jshfeng/) <Br>
+ **[Pages]** https://github.com/facebookresearch/OctConv <Br>
+ **[Description]**<Br>
+  1) 提出一种新的卷积形式, 试图将特征图的高低频分类分解, 并在不同尺度上处理, 以节省内存和计算成本的效果. <Br>
+  2) 以为会真正提出分解特征图高频低频分类的算法, 其实只是做了个avg pool把原feature降采样两倍作为低频组. 所谓的高低频组分别卷积, 并且两组之间也有信息传递. 至于这种方案到底是不是真的能提取出高低频的特征图, 文中并未给出任何理论证明和实验验证. <Br>
+  3) 实验做得非常多, 写作也值得学习. 但是看完之后还是有点
+
 
 # Optimization
 ### **Uncertainty Weighting ★★**
