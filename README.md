@@ -78,7 +78,7 @@
 **[Paper]** Gather-Excite: Exploiting Feature Context in Convolutional Neural Networks <Br>
 **[Year]** NIPS 2018 <Br>
 **[Authors]**  Jie Hu, Li Shen, [Samuel Albanie](http://www.robots.ox.ac.uk/~albanie/), Gang Sun, [Andrea Vedaldi](http://www.robots.ox.ac.uk/~vedaldi/)<Br>
-**[Pages]**https://github.com/hujie-frank/GENet <Br>
+**[Pages]** https://github.com/hujie-frank/GENet <Br>
 **[Description]** <Br>
 1) 在SENet的基础上, 提出了gather-excite操作. Gather就是收集long-range空间信息的操作, excite就是将gather的信息分配给local feature的操作. 作者认为GE操作可以更有效地挖掘context信息, 并增加feature的可复用性. <Br>
 2) Gather操作可以有多种形式, 如无参数的average pooling(GE-), 有参数的多级depth-wise卷积(GE), 全局depth-wise卷积(GE+)等. 其中无参数的策略对性能有轻微提升, GE+性能最好, 所需参数最多. Excite操作就是把gather的结果经过scale后与原feature的过程. <Br>
@@ -104,7 +104,7 @@
  **[Description]**<Br>
   1) 提出一种新的卷积形式, 试图将特征图的高低频分类分解, 并在不同尺度上处理, 以节省内存和计算成本的效果. <Br>
   2) 以为会真正提出分解特征图高频低频分类的算法, 其实只是做了个avg pool把原feature降采样两倍作为低频组. 所谓的高低频组分别卷积, 并且两组之间也有信息传递. 至于这种方案到底是不是真的能提取出高低频的特征图, 文中并未给出任何理论证明和实验验证. <Br>
-  3) 实验做得非常多, 写作也值得学习. 但是看完之后还是有点
+  3) 实验做得非常多, 写作也值得学习. 但是看完之后还是有点emmmm
 
 
 # Optimization
