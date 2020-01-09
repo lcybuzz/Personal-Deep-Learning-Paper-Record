@@ -5,6 +5,8 @@
 - [General](#general)
 - [Optimization](#optimization)
 - [Theory](#theory)
+- [Pruning](#pruning)
+
 # Rank
 - Network <Br>
   - ★★★ <Br>
@@ -23,6 +25,12 @@
   - ★★★ <Br>
   - ★★ <Br>
     **[ERF]**, **[Convolution Arithmetic]** <Br>
+  - ★ <Br>
+  
+ - Pruning <Br>
+  - ★★★ <Br>
+  - ★★ <Br>
+    **[FPGM]** <Br>
   - ★ <Br>
   
 # Network
@@ -134,3 +142,15 @@
 **[Pages]** https://github.com/vdumoulin/conv_arithmetic <Br>
 **[Description]** <Br>
   1) 讨论了卷积, 池化, 转置卷积的输入输出关系, 供需要时查阅 <Br>
+
+	
+	
+# Pruning
+
+### FPGM ★★ 
+**[Paper]** Filter Pruning via Geometric Median for Deep Convolutional Neural Network Acceleration <Br>
+**[Year]** CVPR 2019 Oral <Br>
+**[Author]**   [Yang He](https://he-y.github.io/), [Ping Liu](https://sites.google.com/site/pingliu264/), Ziwei Wang, Zhilan Hu, [Yi Yang](https://www.uts.edu.au/staff/yi.yang)  <Br>
+**[Pages]**  https://github.com/he-y/filter-pruning-geometric-median  <Br>
+**[Description]**  <Br>
+
