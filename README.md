@@ -92,6 +92,12 @@
 2) Gather操作可以有多种形式, 如无参数的average pooling(GE-), 有参数的多级depth-wise卷积(GE), 全局depth-wise卷积(GE+)等. 其中无参数的策略对性能有轻微提升, GE+性能最好, 所需参数最多. Excite操作就是把gather的结果经过scale后与原feature的过程. <Br>
 3) 方法主要在分类任务上进行验证. 思路和做法很简单, 论述方法值得学习. <Br>
 
+### ResNeSt ★★
+**[Paper]**  (arXiv 2004) ResNeSt: Split-Attention Networks   <Br>
+**[Author]** [Hang Zhang](https://hangzhang.org/), Chongruo Wu, [Zhongyue Zhang](http://zhongyuezhang.com/), [Yi Zhu](https://sites.google.com/view/yizhu/home), Zhi Zhang, [Haibin Lin](https://sites.google.com/view/haibinlin/), [Yue Sun](https://aptsunny.github.io/), [Tong He](https://hetong007.github.io/), [Jonas Muller](https://people.csail.mit.edu/jonasmueller/), R. Manmatha, [Mu Li](https://www.cs.cmu.edu/~muli/), [Alex Smola](http://alex.smola.org/) <Br>
+**[[Pytorch-Code](https://github.com/zhanghang1989/ResNeSt)]**<Br>
+粗读, 类似于将ResNeXt中的每个cardinal再分成成并行的切片, 并对这些split做attention. 性能在分类, 检测, 分割任务上都提升了不少, 代码星星很多, 应该学习一下.
+	
 # General
 
 ### **Deformable-ConvNets ★★**
