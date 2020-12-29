@@ -1,37 +1,12 @@
-# Personal-Deep-Learning-Paper-Record
-# Under Construction
+网络设计, 理论, GAN等方向的论文
+
 # Table of Contents
+- <a href='GAN.md'> GAN </a>
 - [Network](#network)
 - [General](#general)
 - [Optimization](#optimization)
 - [Theory](#theory)
 - [Pruning](#pruning)
-
-# Rank
-- Network <Br>
-  - ★★★ <Br>
-  - ★★ <Br>
-  **[ResNeXt]**, **[DenseNet]** <Br>
-  - ★ <Br>
-  **[Residual Attention Network]**, **[SENet]**, **[GENet]** <Br>
-  
-- General <Br>
-  - ★★★ <Br>
-  - ★★ <Br>
-  **[Deformable-ConvNets]** <Br>
-  - ★ <Br>
-  **[OctaveConv]**
-- Theory <Br>
-  - ★★★ <Br>
-  - ★★ <Br>
-    **[ERF]**, **[Convolution Arithmetic]** <Br>
-  - ★ <Br>
-  
- - Pruning <Br>
-  - ★★★ <Br>
-  - ★★ <Br>
-    **[FPGM]** <Br>
-  - ★ <Br>
   
 # Network
 ### **RAM**
