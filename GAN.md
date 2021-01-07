@@ -54,6 +54,12 @@
 **[Author]** [Tamar Rott Shaham](https://tamarott.github.io/), [Tali Dekel](http://people.csail.mit.edu/talidekel/), [Tomer Michaeli](https://tomer.net.technion.ac.il/) <Br>
 **[[Pytorch-Code](https://github.com/tamarott/SinGAN)]**  <Br>
 
+### RAGAN ★☆
+**[Paper]**  (ICLR 2019) The relativistic discriminator: a key element missing from standard GAN <Br>
+**[Author]** Alexia Jolicoeur-Martineau <Br>
+**[[Code](https://github.com/AlexiaJM/RelativisticGAN)]**  <Br>
+提出使用真假样本直接的相对距离作为衡量discriminator的准则
+  
 ### KernelGAN ★★
 **[Paper]**  (NIPS 2019 Oral) Blind Super-Resolution Kernel Estimation using an Internal-GAN <Br>
 **[Author]** Sefi Bell-Kligler, [Assaf Shocher](http://www.wisdom.weizmann.ac.il/~/assafsho/), [Michal Irani](https://www.weizmann.ac.il/math/irani/) <Br>
