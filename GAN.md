@@ -34,11 +34,18 @@
 **[Author]** Andrew Brock, [Jeff Donahue](https://jeffdonahue.com/), Karen Simonyan <Br>
 **[[Pytorch-Code](https://github.com/ajbrock/BigGAN-PyTorch)]**  <Br>
 
-### StyleGAN 
+### StyleGAN ★★
 **[Paper]**  (CVPR 2019) A Style-Based Generator Architecture for Generative Adversarial Networks <Br>
 **[Author]** Tero Karras, [Samuli Laine](https://users.aalto.fi/~laines9/), [Timo Aila](https://users.aalto.fi/~ailat1/) <Br>
 **[[TF-Code](https://github.com/NVlabs/stylegan)]**  <Br>
+ 通过若干FC层得到中间向量, 使用AdaIn的形式将中间向量作用在生成器上
 
+### StyleGAN2 
+**[Paper]**  (CVPR 020) Analyzing and Improving the Image Quality of StyleGAN <Br>
+**[Author]** Tero Karras,[Samuli Laine](https://users.aalto.fi/~laines9/), Miika Aittala, Janne Hellsten, Jaakko Lehtinen, [Timo Aila](https://users.aalto.fi/~ailat1/) <Br>
+**[[TF-Code](https://github.com/NVlabs/stylegan2)]**  <Br>
+
+  
 ### Image2StyleGAN 
 **[Paper]**  (ICCV 2019) Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space? <Br>
 **[Author]** Rameen Abdal, Yipeng Qin, Peter Wonka <Br>
