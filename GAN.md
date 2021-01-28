@@ -2,6 +2,11 @@
 
 可能与其它方向的论文记录有重叠.
 
+
+### f-GAN ★
+**[Paper]** (NIPS 2016) f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization <Br>
+**[Author]** [Sebastian Nowozin](http://nowozin.net/sebastian/), Botond Cseke, [Ryota Tomioka](http://tomioka.dk/)  <Br>
+ 
 ### improved-gan ★★
 **[Paper]** (arXiv 2016) Improved Techniques for Training GANs <Br>
 **[Author]** Tim Salimans, [Ian Goodfellow](https://www.iangoodfellow.com/), [Wojciech Zaremba](http://wojzaremba.com/), Vicki Cheung, Alec Radford, Xi Chen  <Br>
