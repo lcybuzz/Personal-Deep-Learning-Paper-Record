@@ -24,37 +24,6 @@
 **[[Pytorch-Code](https://github.com/tkarras/progressive_growing_of_gans)]** <Br>
 提出了一个渐进式训练GAN的方案, 可以实现大分辨率图像的生成(1024x1024人脸), 并提出了一些训练的技巧. 代码Star非常多, 可以学习一下 <Br>
 
-### StarGAN 
-**[Paper]**  (CVPR 2018 Oral) StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation <Br>
-**[Author]** [Yunjey Choi](https://yunjey.github.io/), [Minje Choi](http://www.minjechoi.com/), Munyoung Kim, Jung-Woo Ha, [Sunghun Kim](http://home.cse.ust.hk/~hunkim/), [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) <Br>
-**[[Pytorch-Code](https://github.com/yunjey/stargan)]**   <Br>
-
-### StarGAN v2
-**[Paper]** (CVPR 2020) StarGAN v2: Diverse Image Synthesis for Multiple Domains <Br>
-**[Author]** [Yunjey Choi](https://yunjey.github.io/), [Youngjung Uh](https://sites.google.com/site/youngjunguh), Jaejun Yoo, Jung-Woo Ha<Br>
-**[[Pytorch-Code](https://github.com/clovaai/stargan-v2)]**<Br>
-
-### BigGAN 
-**[Paper]**  (arXiv 1809) Large Scale GAN Training for High Fidelity Natural Image Synthesis <Br>
-**[Author]** Andrew Brock, [Jeff Donahue](https://jeffdonahue.com/), Karen Simonyan <Br>
-**[[Pytorch-Code](https://github.com/ajbrock/BigGAN-PyTorch)]**  <Br>
-
-### StyleGAN ★★
-**[Paper]**  (CVPR 2019) A Style-Based Generator Architecture for Generative Adversarial Networks <Br>
-**[Author]** Tero Karras, [Samuli Laine](https://users.aalto.fi/~laines9/), [Timo Aila](https://users.aalto.fi/~ailat1/) <Br>
-**[[TF-Code](https://github.com/NVlabs/stylegan)]**  <Br>
- 通过若干FC层得到中间向量, 使用AdaIn的形式将中间向量作用在生成器上
-
-### StyleGAN2 
-**[Paper]**  (CVPR 020) Analyzing and Improving the Image Quality of StyleGAN <Br>
-**[Author]** Tero Karras,[Samuli Laine](https://users.aalto.fi/~laines9/), Miika Aittala, Janne Hellsten, Jaakko Lehtinen, [Timo Aila](https://users.aalto.fi/~ailat1/) <Br>
-**[[TF-Code](https://github.com/NVlabs/stylegan2)]**  <Br>
-
-  
-### Image2StyleGAN 
-**[Paper]**  (ICCV 2019) Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space? <Br>
-**[Author]** Rameen Abdal, Yipeng Qin, Peter Wonka <Br>
-**[[TF-Code](https://github.com/NVlabs/stylegan)]**  <Br>
 
 ### GANSeeing 
 **[Paper]**  (ICCV 2019) Seeing What a GAN Cannot Generate <Br>
