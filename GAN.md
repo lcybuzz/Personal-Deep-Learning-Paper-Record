@@ -2,7 +2,8 @@
 
 可能与其它方向的论文记录有重叠.
 
-
+ 
+ 
 ### f-GAN ★
 **[Paper]** (NIPS 2016) f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization <Br>
 **[Author]** [Sebastian Nowozin](http://nowozin.net/sebastian/), Botond Cseke, [Ryota Tomioka](http://tomioka.dk/)  <Br>
@@ -12,6 +13,11 @@
 **[Author]** Tim Salimans, [Ian Goodfellow](https://www.iangoodfellow.com/), [Wojciech Zaremba](http://wojzaremba.com/), Vicki Cheung, Alec Radford, Xi Chen  <Br>
 **[[TF-Code](https://github.com/openai/improved-gan)]** <Br>
 提出了更好训练GAN的几个技巧
+
+### AC-GAN ★
+**[Paper]** (ICML 2017) Conditional Image Synthesis with Auxiliary Classifier GANs <Br>
+**[Author]** [Augustus Odena](http://www.augustusodena.com/), [Christopher Olah](http://colah.github.io/), [Jonathon Shlens](https://shlens.github.io/)  <Br>
+ 输入包括噪声和label, 判别器输出真假和label 
 
 ### Progressive Growing of GANs ★★☆
 **[Paper]** (ICLR 2018) Progressive Growing of GANs for Improved Quality, Stability, and Variation <Br>
