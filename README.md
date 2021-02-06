@@ -76,21 +76,23 @@
 # General
 
 ### **Deformable-ConvNets ★★**
-**[Paper]** Deformable Convolutional Networks <Br>
-**[Year]** ICCV 2017 Oral<Br>
+**[Paper]** (ICCV 2017 Oral) Deformable Convolutional Networks <Br>
 **[Authors]**	[Jifeng Dai](http://www.jifengdai.org/), [Haozhi Qi](http://haozhi.io/), [Yuwen Xiong](http://www.cs.toronto.edu/~yuwen/), [Yi Li](https://liyi14.github.io/), [Guodong Zhang](http://www.cs.toronto.edu/~gdzhang/), [Han Hu](https://sites.google.com/site/hanhushomepage/), [Yichen Wei](https://www.microsoft.com/en-us/research/people/yichenw/) <Br>
  **[Pages]** https://github.com/msracver/Deformable-ConvNets <Br>
- **[Description]**<Br>
 1) 传统CNN对几何形变的适应力差, 这是标准卷积中的规则格点采样造成的. 为此论文提出了deformable convolution和deformable ROI pooling
 2) 具体做法很简洁, 即用卷积层从前一层的feature map中学习到每个位置的offsets, 整个过程是完全可微的.
 3) 实验效果很好. 论文可以之后精读
-
+	
+### LIP ★
+**[Paper]** (ICCV 2019) LIP: Local Importance-based Pooling <Br>
+**[Authors]** [Ziteng Gao](https://sebgao.github.io/), [Limin Wang](http://wanglimin.github.io/), Gangshan Wu <Br>
+**[[Pytorch-Code](https://github.com/sebgao/LIP)]**  <Br>
+用一个分支预测pooling的权重
+	
 ### **OctaveConv ★**
-**[Paper]** Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution <Br>
-**[Year]** arXiv 1904<Br>
+**[Paper]** (ICCV 2019)  Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution <Br>
 **[Authors]**	[Yunpeng Chen](https://cypw.github.io/), Haoqi Fan, Bing Xu, [Zhicheng Yan](https://sites.google.com/view/zhicheng-yan), [Yannis Kalantidis](http://www.skamalas.com/), [Marcus Rohrbach](http://rohrbach.vision/), [Shuicheng Yan](https://www.ece.nus.edu.sg/stfpage/eleyans/), [Jiashi Feng](https://sites.google.com/site/jshfeng/) <Br>
- **[Pages]** https://github.com/facebookresearch/OctConv <Br>
- **[Description]**<Br>
+**[[MXNet-Code](https://github.com/facebookresearch/OctConv)]** <Br>
   1) 提出一种新的卷积形式, 试图将特征图的高低频分类分解, 并在不同尺度上处理, 以节省内存和计算成本的效果. <Br>
   2) 以为会真正提出分解特征图高频低频分类的算法, 其实只是做了个avg pool把原feature降采样两倍作为低频组. 所谓的高低频组分别卷积, 并且两组之间也有信息传递. 至于这种方案到底是不是真的能提取出高低频的特征图, 文中并未给出任何理论证明和实验验证. <Br>
   3) 实验做得非常多, 写作也值得学习. 但是看完之后还是有点emmmm
@@ -98,21 +100,16 @@
 
 # Optimization
 ### **Uncertainty Weighting ★★**
-**[Paper]** Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics <Br>
-**[Year]** CVPR 2018 <Br>
+**[Paper]** (CVPR 2018) Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics <Br>
 **[Authors]**  [Alex Kendall](https://alexgkendall.com/), [Yarin Gal](http://www.cs.ox.ac.uk/people/yarin.gal/website/), [Roberto Cipolla](https://mi.eng.cam.ac.uk/~cipolla/)<Br>
 **[Pages]** https://github.com/alexgkendall/multitaskvision<Br>
-**[Description]** <Br>
 1) 提出了一种用不确定度为多任务学习中每个loss赋权重的方法. 作者证从多任务的最大似然估计出发, 证明了在多任务学习中, 分类和回归问题的loss应该用1/sigma^2来对其进行加权, 其中sigma表示该任务的不确定度. 实际应用中, 作者通过为每个任务分别学习其log sigma来自适应地得到每个loss的weight. <Br>
 2) 分类任务加入一1/sigma^2作为scale factor的原理没有搞清楚. <Br>
 
 # Theory
 ### **ERF ★★**
-**[Paper]** Understanding the Effective Receptive Field in Deep Convolutional Neural Networks <Br>
-**[Year]** NIPS 2016 <Br>
+**[Paper]** (NIPS 2016) Understanding the Effective Receptive Field in Deep Convolutional Neural Networks <Br>
 **[Authors]**  [Wenjie Luo](http://www.cs.toronto.edu/~wenjie/), [Yujia Li](http://www.cs.toronto.edu/~yujiali/), [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/), [Richard Zemel](http://www.cs.toronto.edu/~zemel/inquiry/home.php)<Br>
-**[Pages]** <Br>
-**[Description]** <Br>
 1) 从理论上分析了CNN中的有效感受野其实比理论感受野小很多, 且呈现高斯分布的现象. <Br>
 2) 很多数学没读懂, 有去复习概率和组合数学的冲动>_<. <Br>
   
@@ -121,7 +118,6 @@
 **[Year]** technical report, arXiv 1603 <Br>
 **[Authors]**  [Vincent Dumoulin](https://vdumoulin.github.io/), Francesco Visin <Br>
 **[Pages]** https://github.com/vdumoulin/conv_arithmetic <Br>
-**[Description]** <Br>
   1) 讨论了卷积, 池化, 转置卷积的输入输出关系, 供需要时查阅 <Br>
 
 	
@@ -129,9 +125,6 @@
 # Pruning
 
 ### FPGM ★★ 
-**[Paper]** Filter Pruning via Geometric Median for Deep Convolutional Neural Network Acceleration <Br>
-**[Year]** CVPR 2019 Oral <Br>
+**[Paper]** (CVPR 2019 Oral) Filter Pruning via Geometric Median for Deep Convolutional Neural Network Acceleration <Br>
 **[Author]**   [Yang He](https://he-y.github.io/), [Ping Liu](https://sites.google.com/site/pingliu264/), Ziwei Wang, Zhilan Hu, [Yi Yang](https://www.uts.edu.au/staff/yi.yang)  <Br>
 **[Pages]**  https://github.com/he-y/filter-pruning-geometric-median  <Br>
-**[Description]**  <Br>
-
