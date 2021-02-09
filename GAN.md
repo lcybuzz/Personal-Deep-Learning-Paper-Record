@@ -2,7 +2,10 @@
 
 可能与其它方向的论文记录有重叠.
 
- 
+### DCGAN
+**[Paper]** (arXiv 1511) Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks <Br>
+**[Author]** Alec Radford, [Luke Metz](http://lukemetz.com/), [Soumith Chintala](https://soumith.ch/)  <Br>
+**[[TF-Code](https://github.com/carpedm20/DCGAN-tensorflow)]** <Br>
  
 ### f-GAN ★
 **[Paper]** (NIPS 2016) f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization <Br>
@@ -19,6 +22,15 @@
 **[Author]** [Augustus Odena](http://www.augustusodena.com/), [Christopher Olah](http://colah.github.io/), [Jonathon Shlens](https://shlens.github.io/)  <Br>
  输入包括噪声和label, 判别器输出真假和label 
 
+### WGAN
+**[Paper]** (ICLR 2017) Towards Principled Methods for Training Generative Adversarial Networks <Br>
+**[Author]** Martin Arjovsky, [Léon Bottou](https://leon.bottou.org/)  <Br>
+**[Paper]** (ICML 2017) Wasserstein generative adversarial networks <Br>
+**[Author]** Martin Arjovsky, [Soumith Chintala](https://soumith.ch/), [Léon Bottou](https://leon.bottou.org/)  <Br>
+**[Paper]** (NIPS 2017) Improved training of wasserstein gans <Br>
+**[Author]** [Ishaan Gulrajani](https://ishaan.io/), Faruk Ahmed, Martin Arjovsky, [Vincent Dumoulin](https://vdumoulin.github.io/), Aaron C Courville  <Br>
+**[[TF-Code](https://github.com/igul222/improved_wgan_training)]** **[[Blog](https://zhuanlan.zhihu.com/p/25071913)]**<Br>
+ 
 ### Progressive Growing of GANs ★★☆
 **[Paper]** (ICLR 2018) Progressive Growing of GANs for Improved Quality, Stability, and Variation <Br>
 **[Author]** [Tero Karras](https://research.nvidia.com/person/tero-karras), [Timo Aila](https://research.nvidia.com/person/timo-aila), [Samuli Laine](https://users.aalto.fi/~laines9/), [Jaakko Lehtinen](https://users.aalto.fi/~lehtinj7/)   <Br>
