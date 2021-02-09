@@ -11,6 +11,11 @@
 **[Paper]** (NIPS 2016) f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization <Br>
 **[Author]** [Sebastian Nowozin](http://nowozin.net/sebastian/), Botond Cseke, [Ryota Tomioka](http://tomioka.dk/)  <Br>
  
+### InfoGAN
+**[Paper]** (arXiv 1606) InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets <Br>
+**[Author]** [Xi Chen](https://peterchen.us/), [Yan Duan](http://rockyduan.com/), [Rein Houthooft](http://rockyduan.com/), [John Schulman](http://joschu.net/), [Ilya Sutskever](http://www.cs.utoronto.ca/~ilya/), [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) <Br>
+**[[TF-Code](https://github.com/openai/InfoGAN)]** <Br>
+ 
 ### improved-gan ★★
 **[Paper]** (arXiv 2016) Improved Techniques for Training GANs <Br>
 **[Author]** Tim Salimans, [Ian Goodfellow](https://www.iangoodfellow.com/), [Wojciech Zaremba](http://wojzaremba.com/), Vicki Cheung, Alec Radford, Xi Chen  <Br>
@@ -30,6 +35,11 @@
 **[Paper]** (NIPS 2017) Improved training of wasserstein gans <Br>
 **[Author]** [Ishaan Gulrajani](https://ishaan.io/), Faruk Ahmed, Martin Arjovsky, [Vincent Dumoulin](https://vdumoulin.github.io/), Aaron C Courville  <Br>
 **[[TF-Code](https://github.com/igul222/improved_wgan_training)]** **[[Blog](https://zhuanlan.zhihu.com/p/25071913)]**<Br>
+ 
+### LSGAN
+**[Paper]** (ICCV 2017) Least Squares Generative Adversarial Networks <Br>
+**[Author]** [Xudong Mao](https://xudongmao.github.io/), [Qing Li](https://www4.comp.polyu.edu.hk/~csqli/), [Haoran Xie](http://home.eduhk.hk/~hxie/), Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley <Br>
+**[[TF-Code](https://github.com/xudonmao/LSGAN)]** **[[Unofficial-TF-Code](https://github.com/GunhoChoi/LSGAN-TF)]** <Br>
  
 ### Progressive Growing of GANs ★★☆
 **[Paper]** (ICLR 2018) Progressive Growing of GANs for Improved Quality, Stability, and Variation <Br>
