@@ -27,7 +27,7 @@
 **[Author]** [Augustus Odena](http://www.augustusodena.com/), [Christopher Olah](http://colah.github.io/), [Jonathon Shlens](https://shlens.github.io/)  <Br>
  输入包括噪声和label, 判别器输出真假和label 
 
-### WGAN
+### WGAN ★★★
 **[Paper]** (ICLR 2017) Towards Principled Methods for Training Generative Adversarial Networks <Br>
 **[Author]** Martin Arjovsky, [Léon Bottou](https://leon.bottou.org/)  <Br>
 **[Paper]** (ICML 2017) Wasserstein generative adversarial networks <Br>
@@ -35,11 +35,13 @@
 **[Paper]** (NIPS 2017) Improved training of wasserstein gans <Br>
 **[Author]** [Ishaan Gulrajani](https://ishaan.io/), Faruk Ahmed, Martin Arjovsky, [Vincent Dumoulin](https://vdumoulin.github.io/), Aaron C Courville  <Br>
 **[[TF-Code](https://github.com/igul222/improved_wgan_training)]** **[[Blog](https://zhuanlan.zhihu.com/p/25071913)]**<Br>
+**(GAN的改进)**  提出了一种改进的GAN训练方式
  
-### LSGAN
+### LSGAN ★★☆
 **[Paper]** (ICCV 2017) Least Squares Generative Adversarial Networks <Br>
 **[Author]** [Xudong Mao](https://xudongmao.github.io/), [Qing Li](https://www4.comp.polyu.edu.hk/~csqli/), [Haoran Xie](http://home.eduhk.hk/~hxie/), Raymond Y.K. Lau, Zhen Wang, Stephen Paul Smolley <Br>
 **[[TF-Code](https://github.com/xudonmao/LSGAN)]** **[[Unofficial-TF-Code](https://github.com/GunhoChoi/LSGAN-TF)]** <Br>
+**(GAN loss)**  常用的一种GAN loss
  
 ### Progressive Growing of GANs ★★☆
 **[Paper]** (ICLR 2018) Progressive Growing of GANs for Improved Quality, Stability, and Variation <Br>
@@ -47,6 +49,11 @@
 **[[Pytorch-Code](https://github.com/tkarras/progressive_growing_of_gans)]** <Br>
 提出了一个渐进式训练GAN的方案, 可以实现大分辨率图像的生成(1024x1024人脸), 并提出了一些训练的技巧. 代码Star非常多, 可以学习一下 <Br>
 
+### Spectral Norm ★★☆
+**[Paper]**  (ICLR 2018 Oral) Spectral Normalization for Generative Adversarial Networks <Br>
+**[Author]** [Takeru Miyato](http://takerum.github.io/), Toshiki Kataoka, Masanori Koyama, [Yuichi Yoshida](http://research.nii.ac.jp/~yyoshida/) <Br>
+**[[Chainer-Code](https://github.com/pfnet-research/sngan_projection)]** **[[TF-Code](**[[Chainer-Code](https://github.com/pfnet-research/sngan_projection)]**)]** **[[Blog1](https://christiancosgrove.com/blog/2018/01/04/spectral-normalization-explained.html)]**  **[[Blog2](http://kaizhao.net/posts/spectral-norm)]** <Br>
+ **(提升GAN稳定性)** 非常常用的一种对判别器的正则化方法, 注意不能与BN同时使用
 
 ### GANSeeing 
 **[Paper]**  (ICCV 2019) Seeing What a GAN Cannot Generate <Br>
@@ -58,7 +65,12 @@
 **[Author]** [Tamar Rott Shaham](https://tamarott.github.io/), [Tali Dekel](http://people.csail.mit.edu/talidekel/), [Tomer Michaeli](https://tomer.net.technion.ac.il/) <Br>
 **[[Pytorch-Code](https://github.com/tamarott/SinGAN)]**  <Br>
 
-### RAGAN ★☆
+### SAGAN
+**[Paper]**  (ICML 2019) Self-Attention Generative Adversarial Networks <Br>
+**[Author]** [Han Zhang](https://sites.google.com/view/hanzhang), [Ian Goodfellow](https://www.iangoodfellow.com/), [Dimitris Metaxas](https://www.cs.rutgers.edu/~dnm/), [Augustus Odena](http://www.augustusodena.com/) <Br>
+**[[Pytorch-Code](https://github.com/heykeetae/Self-Attention-GAN)]**  **[[TF-Code1](https://github.com/brain-research/self-attention-gan)]** **[[TF-Code2](https://github.com/taki0112/Self-Attention-GAN-Tensorflow)]**<Br>
+ 
+### RAGAN ★★☆
 **[Paper]**  (ICLR 2019) The relativistic discriminator: a key element missing from standard GAN <Br>
 **[Author]** Alexia Jolicoeur-Martineau <Br>
 **[[Code](https://github.com/AlexiaJM/RelativisticGAN)]**  <Br>
