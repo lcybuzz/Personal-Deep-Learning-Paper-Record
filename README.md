@@ -3,6 +3,7 @@
 # Table of Contents
 - <a href='GAN.md'> GAN </a>
 - [Network](#network)
+- [Training Tricks](#training-tricks)
 - [General](#general)
 - [Optimization](#optimization)
 - [Theory](#theory)
@@ -73,8 +74,17 @@
 **[[Pytorch-Code](https://github.com/zhanghang1989/ResNeSt)]**<Br>
 粗读, 类似于将ResNeXt中的每个cardinal再分成成并行的切片, 并对这些split做attention. 性能在分类, 检测, 分割任务上都提升了不少, 代码星星很多, 应该学习一下.
 	
-# General
 
+
+# Training Tricks	
+### CutMix ★★
+**[Paper]**  (ICCV 2019 Oral) CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features   <Br>
+**[Author]** [Sangdoo Yun](https://sangdooyun.github.io/), [Dongyoon Han](https://sites.google.com/site/dyhan0920/), [Seong Joon Oh](https://coallaoh.github.io//), [Sanghyuk Chun](https://sanghyukchun.github.io/home/), [Junsuk Choe](https://sites.google.com/site/junsukchoe/), [Youngjoon Yoo](https://yjyoo3312.github.io/) <Br>
+**[[Pytorch-Code](https://github.com/clovaai/CutMix-PyTorch)]**<Br>
+(**数据增强**) 随机将一块区域替换成另一个类别的图像, label也做相应mix
+
+
+# General
 ### **Deformable-ConvNets ★★**
 **[Paper]** (ICCV 2017 Oral) Deformable Convolutional Networks <Br>
 **[Authors]**	[Jifeng Dai](http://www.jifengdai.org/), [Haozhi Qi](http://haozhi.io/), [Yuwen Xiong](http://www.cs.toronto.edu/~yuwen/), [Yi Li](https://liyi14.github.io/), [Guodong Zhang](http://www.cs.toronto.edu/~gdzhang/), [Han Hu](https://sites.google.com/site/hanhushomepage/), [Yichen Wei](https://www.microsoft.com/en-us/research/people/yichenw/) <Br>
