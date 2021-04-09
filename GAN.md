@@ -2,10 +2,17 @@
 
 可能与其它方向的论文记录有重叠.
 
-### DCGAN
+
+### Conditional GAN ★★
+**[Paper]** (arXiv 1411) Conditional Generative Adversarial Nets <Br>
+**[Author]** Mehdi Mirza, Simon Osindero  <Br>
+给定类别的图像生成, 把label分别加入G和D的输入中
+ 
+### DCGAN ★★★
 **[Paper]** (arXiv 1511) Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks <Br>
 **[Author]** Alec Radford, [Luke Metz](http://lukemetz.com/), [Soumith Chintala](https://soumith.ch/)  <Br>
 **[[TF-Code](https://github.com/carpedm20/DCGAN-tensorflow)]** <Br>
+经典生成网络
  
 ### f-GAN ★
 **[Paper]** (NIPS 2016) f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization <Br>
@@ -22,10 +29,11 @@
 **[[TF-Code](https://github.com/openai/improved-gan)]** <Br>
 提出了更好训练GAN的几个技巧
 
-### AC-GAN ★
+### ACGAN ★
 **[Paper]** (ICML 2017) Conditional Image Synthesis with Auxiliary Classifier GANs <Br>
 **[Author]** [Augustus Odena](http://www.augustusodena.com/), [Christopher Olah](http://colah.github.io/), [Jonathon Shlens](https://shlens.github.io/)  <Br>
- 输入包括噪声和label, 判别器输出真假和label 
+ **[[Unofficial-TF-Code](https://github.com/lukedeo/keras-acgan)]** **[[Unofficial-Pytorch-Code](https://github.com/clvrai/ACGAN-PyTorch)]** <Br>
+ 输入包括噪声和label, 判别器输出真假和label. 可用于生成分类数据.
 
 ### WGAN ★★★
 **[Paper]** (ICLR 2017) Towards Principled Methods for Training Generative Adversarial Networks <Br>
