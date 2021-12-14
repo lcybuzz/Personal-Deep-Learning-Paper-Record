@@ -3,6 +3,7 @@
 # Table of Contents
 - [QAT](#qat)
 - [Survey](#survey)
+- [Resource](#resource)
 
 ## QAT
 ### LSQ+ ★★
@@ -48,3 +49,8 @@
 **[Author]** Raghuraman Krishnamoorthi <Br>
 谷歌量化白皮书
 
+  
+  
+  
+## Resource
+[Awesome Model Quantization](https://github.com/htqin/awesome-model-quantization#Survey_of_Quantization)
