@@ -63,3 +63,5 @@
   
 ## Resources
 [Awesome Model Quantization](https://github.com/htqin/awesome-model-quantization#Survey_of_Quantization)
+ 
+[基于pytorch的QAT, PTQ, 剪枝等算法实现](https://github.com/666DZY666/micronet)
