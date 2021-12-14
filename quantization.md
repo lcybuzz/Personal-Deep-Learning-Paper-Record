@@ -1,10 +1,19 @@
 # Quantization
-模型量化相关论文
+模型量化论文, 主要关注与实际硬件部署相关的内容
 # Table of Contents
+- [PTQ](#ptq)
 - [QAT](#qat)
 - [Survey](#survey)
 - [Resources](#resources)
 
+
+## PTQ
+### CLE/BC ★★
+**[Paper]**  (ICCV 2019) Data Free Quantization Through Weight Equalization and Bias Correction <Br>
+**[Author]** Markus Nagel, Mart van Baalen, Tijmen Blankevoort, Max Welling <Br>
+**[[Unofficial-Pytorch-Code](https://github.com/jakc4103/DFQ)]** <Br>
+高通提出的ptq方法, 对mobilenet这样的层间数值分布差异较大的模型效果较好
+  
 ## QAT
 ### LSQ+ ★★
 **[Paper]**  (CVPR 2020) LSQ+: Improving low-bit quantization through learnable offsets and better initialization <Br>
