@@ -3,7 +3,7 @@
 # Table of Contents
 - [QAT](#qat)
 - [Survey](#survey)
-- [Resource](#resource)
+- [Resources](#resources)
 
 ## QAT
 ### LSQ+ ★★
@@ -52,5 +52,5 @@
   
   
   
-## Resource
+## Resources
 [Awesome Model Quantization](https://github.com/htqin/awesome-model-quantization#Survey_of_Quantization)
