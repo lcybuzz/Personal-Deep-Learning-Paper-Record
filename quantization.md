@@ -11,10 +11,14 @@
 ### CLE/BC ★★
 **[Paper]**  (ICCV 2019) Data Free Quantization Through Weight Equalization and Bias Correction <Br>
 **[Author]** Markus Nagel, Mart van Baalen, Tijmen Blankevoort, Max Welling <Br>
-**[[Unofficial-Pytorch-Code](https://github.com/jakc4103/DFQ)]** <Br>
-高通提出的ptq方法, 对mobilenet这样的层间数值分布差异较大的模型效果较好
+**[[Project](https://cvlab.yonsei.ac.kr/projects/DAQ/)]** <Br> **[[Pytorch-Code](https://github.com/cvlab-yonsei/DAQ)]** <Br>
+
   
 ## QAT
+### DAQ
+**[Paper]**  (ICCV 2021) Distance-aware Quantization <Br>
+**[Author]** Junghyup Lee, Dohyung Kim, [Bumsub Ham](https://cvlab.yonsei.ac.kr/) <Br>
+  
 ### LSQ+ ★★
 **[Paper]**  (CVPR 2020) LSQ+: Improving low-bit quantization through learnable offsets and better initialization <Br>
 **[Author]** [Yash Bhalgat](https://yashbhalgat.github.io/), Jinwon Lee, Markus Nagel, Tijmen Blankevoort, [Nojun Kwak](http://mipal.snu.ac.kr/index.php/Main_Page) <Br>
