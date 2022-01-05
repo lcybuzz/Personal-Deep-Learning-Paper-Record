@@ -39,7 +39,16 @@
 ### PACT
 **[Paper]**  (ICLR 2018) PACT: Parameterized Clipping Activation for Quantized Neural Networks <Br>
 **[Author]** Jungwook Choi, Zhuo Wang, [Swagath Venkataramani](https://engineering.purdue.edu/people/swagath.venkataramani.1/index_html), Pierce I-Jen Chuang, Vijayalakshmi Srinivasan, Kailash Gopalakrishnan <Br>
-**[[Unofficial-Pytorch-Code](https://github.com/KwangHoonAn/PACT)]**  **[[Unofficial-Pytorch-Code](https://github.com/cornell-zhang/dnn-gating)]** <Br>
+
+### MSQE
+**[Paper]**  (arXiv 811) On periodic functions as regularizers for quantization of neural networks <Br>
+**[Author]** [Maxim Naumov](https://research.facebook.com/people/naumov-maxim/), Utku Diril, [Jongsoo Park](https://sites.google.com/site/jongsoopark/), Benjamin Ray, Jedrzej Jablonski, [Andrew Tulloch](https://tullo.ch/) <Br>
+Facebook出品
+  
+### MSQE
+**[Paper]**  (arXiv 1809) Learning Sparse Low-Precision Neural Networks With Learnable Regularization <Br>
+**[Author]** Yoojin Choi, Mostafa El-Khamy, [Jungwon Lee](https://sites.google.com/site/jungwonlee) <Br>
+三星出品
 
 ### LQ-Nets
 **[Paper]**  (ECCV 2018) LQ-Nets: Learned Quantization for Highly Accurate and Compact Deep Neural Networks <Br>
