@@ -36,6 +36,12 @@
 **[Author]** Jungwook Choi, Zhuo Wang, [Swagath Venkataramani](https://engineering.purdue.edu/people/swagath.venkataramani.1/index_html), Pierce I-Jen Chuang, Vijayalakshmi Srinivasan, Kailash Gopalakrishnan <Br>
 **[[Unofficial-Pytorch-Code](https://github.com/KwangHoonAn/PACT)]**  **[[Unofficial-Pytorch-Code](https://github.com/cornell-zhang/dnn-gating)]** <Br>
 
+### LQ-Nets
+**[Paper]**  (ECCV 2018) LQ-Nets: Learned Quantization for Highly Accurate and Compact Deep Neural Networks <Br>
+**[Author]** [Dongqing Zhang](https://github.com/zdqzeros), [Jiaolong Yang](http://jlyang.org/), [Dongqiangzi Ye](https://github.com/EowinYe), [Gang Hua](https://www.microsoft.com/en-us/research/people/ganghua/)  <Br>
+**[[TF-Code](https://github.com/microsoft/LQ-Nets)]**  <Br>
+MSRA出品
+  
 ### *Towards Effective Low-bitwidth Convolutional Neural Networks* ★
 **[Paper]**  (CVPR 2018) Towards Effective Low-bitwidth Convolutional Neural Networks <Br>
 **[Author]** Bohan Zhuang, Chunhua Shen, Mingkui Tan, Lingqiao Liu, Ian Reid <Br>
