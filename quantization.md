@@ -56,9 +56,12 @@
 **[Paper]**  (arXiv 2103) A Survey of Quantization Methods for Efficient Neural Network Inference <Br>
 **[Author]** [Amir Gholami](http://amirgholami.org/), Sehoon Kim, [Zhen Dong](https://dong-zhen.com/), [Zhewei Yao](https://yaozhewei.github.io/), [Michael W. Mahoney](https://www.stat.berkeley.edu/~mmahoney/), [Kurt Keutzer](https://people.eecs.berkeley.edu/~keutzer/) <Br>
 
+### Integer Quantization for Deep Learning Inference
+**[Paper]**  (arXiv 2004) Integer Quantization for Deep Learning Inference: Principles and Empirical Evaluation <Br>
+**[Author]** Hao Wu, Patrick Judd, Xiaojie Zhang, [Mikhail Isaev](https://research.monash.edu/en/persons/mikhail-isaev), Paulius Micikevicius <Br>
 
 ### *Quantizing deep convolutional networks for efficient inference: A whitepaper* ★★
-**[Paper]**  (arXiv 2103) Quantizing deep convolutional networks for efficient inference: A whitepaper <Br>
+**[Paper]**  (arXiv 1806) Quantizing deep convolutional networks for efficient inference: A whitepaper <Br>
 **[Author]** Raghuraman Krishnamoorthi <Br>
 谷歌量化白皮书
 
