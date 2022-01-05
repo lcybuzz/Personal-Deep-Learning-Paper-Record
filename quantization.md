@@ -53,11 +53,12 @@ MSRA出品
 **[[Pytorch-Code](https://github.com/nowgood/QuantizeCNNModel)]** <Br>
 提出3个trick: 1) 分两阶段, 先量化weight, 再量化act; 2) 逐渐降低比特数, 对2bit量化等情况可能有效; 3) 用float模型对quant模型做feature的蒸馏
 
+### ProxQuant
+**[Paper]**  (CVPR 2018) Towards Effective Low-bitwidth Convolutional Neural Networks <Br>
+**[Author]** [Yu Bai](https://yubai.org/), [Yu-Xiang Wang](https://sites.cs.ucsb.edu/~yuxiangw/), [Edo Liberty](https://edoliberty.github.io//) <Br>
+**[[Pytorch-Code](https://github.com/allenbai01/ProxQuant)]** <Br>
 
-### *Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference* ★★★
-**[Paper]**  (CVPR 2018) Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference<Br>
-**[Author]** Benoit Jacob, Skirmantas Kligys, [Bo Chen](http://www.vision.caltech.edu/bchen3/_site2/index.html), [Menglong Zhu](http://dreamdragon.github.io/), Matthew Tang, Andrew Howard, [Hartwig Adam](https://research.google/people/author37870/), Dmitry Kalenichenko <Br>
-比较详细地介绍了qat和int8推理
+
 
 
 
@@ -80,6 +81,11 @@ MSRA出品
 **[Paper]**  (arXiv 1806) Quantizing deep convolutional networks for efficient inference: A whitepaper <Br>
 **[Author]** Raghuraman Krishnamoorthi <Br>
 谷歌量化白皮书
+
+### *Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference* ★★★
+**[Paper]**  (CVPR 2018) Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference<Br>
+**[Author]** Benoit Jacob, Skirmantas Kligys, [Bo Chen](http://www.vision.caltech.edu/bchen3/_site2/index.html), [Menglong Zhu](http://dreamdragon.github.io/), Matthew Tang, Andrew Howard, [Hartwig Adam](https://research.google/people/author37870/), Dmitry Kalenichenko <Br>
+比较详细地介绍了qat和int8推理
 
   
   
