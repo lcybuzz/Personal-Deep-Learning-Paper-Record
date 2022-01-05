@@ -31,6 +31,11 @@
 **[[Unofficial-Pytorch-Code](https://github.com/DeadAt0m/LSQFakeQuantize-PyTorch)]** <Br>
 学习scale
 
+### PACT
+**[Paper]**  (ICLR 2018) PACT: Parameterized Clipping Activation for Quantized Neural Networks <Br>
+**[Author]** Jungwook Choi, Zhuo Wang, [Swagath Venkataramani](https://engineering.purdue.edu/people/swagath.venkataramani.1/index_html), Pierce I-Jen Chuang, Vijayalakshmi Srinivasan, Kailash Gopalakrishnan <Br>
+**[[Unofficial-Pytorch-Code](https://github.com/KwangHoonAn/PACT)]**  **[[Unofficial-Pytorch-Code](https://github.com/cornell-zhang/dnn-gating)]** <Br>
+
 ### *Towards Effective Low-bitwidth Convolutional Neural Networks* ★
 **[Paper]**  (CVPR 2018) Towards Effective Low-bitwidth Convolutional Neural Networks <Br>
 **[Author]** Bohan Zhuang, Chunhua Shen, Mingkui Tan, Lingqiao Liu, Ian Reid <Br>
@@ -69,6 +74,11 @@
   
   
 ## Resources
-[Awesome Model Quantization](https://github.com/htqin/awesome-model-quantization#Survey_of_Quantization)
- 
+[高通量化框架AIMET(TF1, Pytorch)](https://github.com/quic/aimet)
+
+[Intel Distiller](https://github.com/IntelLabs/distiller)
+  
 [基于pytorch的QAT, PTQ, 剪枝等算法实现](https://github.com/666DZY666/micronet)
+  
+[Awesome Model Quantization](https://github.com/htqin/awesome-model-quantization#Survey_of_Quantization)
+
