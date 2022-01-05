@@ -18,6 +18,11 @@
 ### DAQ
 **[Paper]**  (ICCV 2021) Distance-aware Quantization <Br>
 **[Author]** Junghyup Lee, Dohyung Kim, [Bumsub Ham](https://cvlab.yonsei.ac.kr/) <Br>
+
+### Gradient ℓ1 Regularization
+**[Paper]**  (ICLR 2020) Gradient ℓ1 Regularization for Quantization Robustness <Br>
+**[Author]** Milad Alizadeh, Arash Behboodi, Mart van Baalen, [Christos Louizos](https://christoslouizos.wordpress.com/), Tijmen Blankevoort, [Max Welling](https://staff.fnwi.uva.nl/m.welling/) <Br>
+高通出品.
   
 ### LSQ+ ★★
 **[Paper]**  (CVPR 2020) LSQ+: Improving low-bit quantization through learnable offsets and better initialization <Br>
