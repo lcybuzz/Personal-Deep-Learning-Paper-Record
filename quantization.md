@@ -36,9 +36,11 @@
 **[[Unofficial-Pytorch-Code](https://github.com/DeadAt0m/LSQFakeQuantize-PyTorch)]** <Br>
 学习scale
 
-### PACT
+### PACT ★☆
 **[Paper]**  (ICLR 2018) PACT: Parameterized Clipping Activation for Quantized Neural Networks <Br>
 **[Author]** Jungwook Choi, Zhuo Wang, [Swagath Venkataramani](https://engineering.purdue.edu/people/swagath.venkataramani.1/index_html), Pierce I-Jen Chuang, Vijayalakshmi Srinivasan, Kailash Gopalakrishnan <Br>
+**[[Pytorch-Code](https://github.com/IntelLabs/distiller/blob/master/distiller/quantization/clipped_linear.py)]** <Br>
+Intel出品. 提出对ReLU的上限加一个可学习的截断, 使qat时网络能自动找到更好的clip range.
 
 ### MSQE
 **[Paper]**  (arXiv 811) On periodic functions as regularizers for quantization of neural networks <Br>
