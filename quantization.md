@@ -1,12 +1,12 @@
-# Quantization
-模型量化论文, 主要关注与实际硬件部署相关的内容
+Quantization, integer inference, and other stuff related to mobile deployment
+
 # Table of Contents
 - [PTQ](#ptq)
 - [QAT](#qat)
 - [Inference](#inference)
 - [Survey](#survey)
 - [Resources](#resources)
-
+- [Frameworks](#frameworks)
 
 # PTQ
 #### CLE/BC ★★
@@ -106,11 +106,19 @@ MSRA出品
   
   
 # Resources
-[高通量化框架AIMET(TF1, Pytorch)](https://github.com/quic/aimet)
-
-[Intel Distiller](https://github.com/IntelLabs/distiller)
-  
 [基于pytorch的QAT, PTQ, 剪枝等算法实现](https://github.com/666DZY666/micronet)
   
 [Awesome Model Quantization](https://github.com/htqin/awesome-model-quantization#Survey_of_Quantization)
 
+  
+  
+# Frameworks
+[高通量化框架AIMET(TF1, Pytorch)](https://github.com/quic/aimet)
+
+[Intel Distiller](https://github.com/IntelLabs/distiller)
+  
+Facebook端侧推理框架 [[QNNPACK](https://github.com/pytorch/QNNPACK)]  [[FBGEMM](https://github.com/pytorch/FBGEMM)] [[Blog](https://engineering.fb.com/2018/11/07/ml-applications/fbgemm/)]
+
+[[NCNN](https://github.com/Tencent/ncnn)]
+  
+[[MNN](https://github.com/alibaba/MNN)]
