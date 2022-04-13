@@ -113,12 +113,14 @@ MSRA出品
   
   
 # Frameworks
-[高通量化框架AIMET(TF1, Pytorch)](https://github.com/quic/aimet)
+高通量化框架AIMET(TF1, Pytorch) [[AIMET](https://github.com/quic/aimet)]
 
-[Intel Distiller](https://github.com/IntelLabs/distiller)
+[[Intel Distiller](https://github.com/IntelLabs/distiller)]
   
 Facebook端侧推理框架 [[QNNPACK](https://github.com/pytorch/QNNPACK)]  [[FBGEMM](https://github.com/pytorch/FBGEMM)] [[Blog](https://engineering.fb.com/2018/11/07/ml-applications/fbgemm/)]
 
 [[NCNN](https://github.com/Tencent/ncnn)]
   
 [[MNN](https://github.com/alibaba/MNN)]
+  
+[[OpenVINO](https://github.com/openvinotoolkit/openvino)]
