@@ -8,14 +8,14 @@
 - [Resources](#resources)
 
 
-## PTQ
+# PTQ
 #### CLE/BC ★★
 **[Paper]**  (ICCV 2019) Data Free Quantization Through Weight Equalization and Bias Correction <Br>
 **[Author]** Markus Nagel, Mart van Baalen, Tijmen Blankevoort, Max Welling <Br>
 **[[Project](https://cvlab.yonsei.ac.kr/projects/DAQ/)]** <Br> **[[Pytorch-Code](https://github.com/cvlab-yonsei/DAQ)]** <Br>
 
   
-## QAT
+# QAT
 #### DAQ
 **[Paper]**  (ICCV 2021) Distance-aware Quantization <Br>
 **[Author]** Junghyup Lee, Dohyung Kim, [Bumsub Ham](https://cvlab.yonsei.ac.kr/) <Br>
@@ -59,7 +59,7 @@ Facebook出品
 **[[TF-Code](https://github.com/microsoft/LQ-Nets)]**  <Br>
 MSRA出品
   
-#### *Towards Effective Low-bitwidth Convolutional Neural Networks* ★
+#### Towards Effective Low-bitwidth Convolutional Neural Networks ★
 **[Paper]**  (CVPR 2018) Towards Effective Low-bitwidth Convolutional Neural Networks <Br>
 **[Author]** Bohan Zhuang, Chunhua Shen, Mingkui Tan, Lingqiao Liu, Ian Reid <Br>
 **[[Pytorch-Code](https://github.com/nowgood/QuantizeCNNModel)]** <Br>
@@ -78,7 +78,7 @@ MSRA出品
 **[Author]** Ye Lin, Yanyang Li, Tengbo Liu, Tong Xiao, Tongran Liu, Jingbo Zhu <Br>
 
 
-## Survey
+# Survey
 #### *A White Paper on Neural Network Quantization* ★★☆
 **[Paper]**  (arXiv 2106) A White Paper on Neural Network Quantization <Br>
 **[Author]** Markus Nagel, Marios Fournarakis, Rana Ali Amjad, Yelysei Bondarenko, Mart van Baalen, Tijmen Blankevoort <Br>
@@ -105,7 +105,7 @@ MSRA出品
   
   
   
-## Resources
+# Resources
 [高通量化框架AIMET(TF1, Pytorch)](https://github.com/quic/aimet)
 
 [Intel Distiller](https://github.com/IntelLabs/distiller)
