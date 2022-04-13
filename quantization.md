@@ -75,7 +75,7 @@ MSRA出品
 # Inference
 #### Towards Fully 8-bit Integer Inference for the Transformer Model
 **[Paper]**  (IJCAI 2020) Towards Fully 8-bit Integer Inference for the Transformer Model <Br>
-**[Author]** Ye Lin, Yanyang Li, Tengbo Liu, Tong Xiao, Tongran Liu, Jingbo Zhu <Br>
+**[Author]** Ye Lin, Yanyang Li, Tengbo Liu, Tong Xiao, Tongran Liu, [Jingbo Zhu](https://www.nlplab.com/members/zhujingbo.html) <Br>
 
 
 # Survey
