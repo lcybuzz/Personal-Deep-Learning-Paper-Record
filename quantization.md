@@ -20,10 +20,18 @@ Quantization, integer inference, and other stuff related to mobile deployment
 **[Paper]**  (ICCV 2021) Distance-aware Quantization <Br>
 **[Author]** Junghyup Lee, Dohyung Kim, [Bumsub Ham](https://cvlab.yonsei.ac.kr/) <Br>
 
+#### FQSR ★
+**[Paper]**  (MM 2021) Fully Quantized Image Super-Resolution Networks <Br>
+**[Author]** [Hu Wang](https://huwang01.github.io/), Peng Chen, [Bohan Zhuang](https://bohanzhuang.github.io/), [Chunhua Shen](https://cshen.github.io/)
+  
 #### Gradient ℓ1 Regularization ★☆
 **[Paper]**  (ICLR 2020) Gradient ℓ1 Regularization for Quantization Robustness <Br>
 **[Author]** Milad Alizadeh, Arash Behboodi, Mart van Baalen, [Christos Louizos](https://christoslouizos.wordpress.com/), Tijmen Blankevoort, [Max Welling](https://staff.fnwi.uva.nl/m.welling/) <Br>
 高通出品. 提出加入梯度的L1正则, 减小量化误差.
+
+#### PAMS ★
+**[Paper]**  (arXiv 1902) PAMS: Quantized Super-Resolution via Parameterized Max Scale <Br>
+**[Author]** Huixia Li, Chenqian Yan, [Shaohui Lin](https://sites.google.com/site/shaohuilin007/home), [Xiawu Zheng](https://sites.google.com/view/zhengxiawu), Yuchao Li, [Baochang Zhang](http://shi.buaa.edu.cn/mpl/en/index.htm), Fan Yang, [Rongrong Ji](https://mac.xmu.edu.cn/rrji_en/)<Br>
   
 #### LSQ+ ★★
 **[Paper]**  (CVPR 2020) LSQ+: Improving low-bit quantization through learnable offsets and better initialization <Br>
