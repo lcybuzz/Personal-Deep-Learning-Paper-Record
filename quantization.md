@@ -20,9 +20,11 @@ Quantization, integer inference, and other stuff related to mobile deployment
 **[Paper]**  (ICCV 2021) Distance-aware Quantization <Br>
 **[Author]** Junghyup Lee, Dohyung Kim, [Bumsub Ham](https://cvlab.yonsei.ac.kr/) <Br>
 
-#### FQSR ★
+#### FQSR ★☆
 **[Paper]**  (MM 2021) Fully Quantized Image Super-Resolution Networks <Br>
 **[Author]** [Hu Wang](https://huwang01.github.io/), Peng Chen, [Bohan Zhuang](https://bohanzhuang.github.io/), [Chunhua Shen](https://cshen.github.io/)
+**[[Pytorch-Code](https://github.com/billhhh/FQSR)]** <Br>
+除了学习零点和scale以外, 提出监督quant节点的输入输出
   
 #### Gradient ℓ1 Regularization ★☆
 **[Paper]**  (ICLR 2020) Gradient ℓ1 Regularization for Quantization Robustness <Br>
