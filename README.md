@@ -77,6 +77,11 @@ Fei Wang, [Mengqing Jiang](https://github.com/Jmq14), Chen Qian, [Shuo Yang](htt
 [**OctaveConv**] [★]   1) 提出一种新的卷积形式, 试图将特征图的高低频分类分解, 并在不同尺度上处理, 以节省内存和计算成本的效果;
   2) 以为会真正提出分解特征图高频低频分类的算法, 其实只是做了个avg pool把原feature降采样两倍作为低频组. 所谓的高低频组分别卷积, 并且两组之间也有信息传递.
 
+- **ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design** <Br>
+[Ningning Ma](https://nmaac.github.io/home/), Xiangyu Zhang, Hai-Tao Zheng, Jian Sun <Br>
+[ECCV 2018]  <Br>
+[★★★] 从FLOPs, 访存的角度, 讨论了模型设计的一些原则
+
 - **Deformable Convolutional Networks** <Br>
 [Jifeng Dai](http://www.jifengdai.org/), [Haozhi Qi](http://haozhi.io/), [Yuwen Xiong](http://www.cs.toronto.edu/~yuwen/), [Yi Li](https://liyi14.github.io/), [Guodong Zhang](http://www.cs.toronto.edu/~gdzhang/), [Han Hu](https://sites.google.com/site/hanhushomepage/), [Yichen Wei](https://www.microsoft.com/en-us/research/people/yichenw/) <Br>
 [ICCV 2017 Oral] [[Pytorch-Code](https://github.com/msracver/Deformable-ConvNets)] <Br>
