@@ -9,6 +9,11 @@ Quantization, integer inference, and other stuff related to mobile deployment
 - [Frameworks](#frameworks)
 
 # PTQ
+- **Solving Oscillation Problem in Post-Training Quantization Through a Theoretical Perspective** <Br>
+Yuexiao Ma, Huixia Li, [Xiawu Zheng](https://sites.google.com/view/zhengxiawu), Xuefeng Xiao, Rui Wang, Shilei Wen, Xin Pan, Fei Chao, [Rongrong Ji](https://mac.xmu.edu.cn/rrji_en/) <Br>
+[CVPR 2023]  <Br>
+[**MRECG**]
+
 - **Data Free Quantization Through Weight Equalization and Bias Correction** <Br>
 Markus Nagel, Mart van Baalen, Tijmen Blankevoort, Max Welling <Br>
 [ICCV 2019] [[Project](https://cvlab.yonsei.ac.kr/projects/DAQ/)] [[Pytorch-Code](https://github.com/cvlab-yonsei/DAQ)] <Br>

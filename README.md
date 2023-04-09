@@ -10,6 +10,15 @@
 - [Pruning](#pruning)
   
 # Network
+- **ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders** <Br>
+[Sanghyun Woo](https://sites.google.com/view/sanghyunwoo/), Shoubhik Debnath, [Ronghang Hu](https://ronghanghu.com/), Xinlei Chen, [Zhuang Liu](https://liuzhuang13.github.io/), In So Kweon,  [Saining Xie](https://www.sainingxie.com/) <Br>
+[arXiv 2301] [[Pytorch-Code](https://github.com/facebookresearch/ConvNeXt-v2)] <Br>
+
+- **A ConvNet for the 2020s** <Br>
+[Zhuang Liu](https://liuzhuang13.github.io/), [Hanzi Mao](https://hanzimao.me/), [Chao-Yuan Wu](https://chaoyuan.org/), [Christoph Feichtenhofer](https://feichtenhofer.github.io/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Saining Xie](https://www.sainingxie.com/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/facebookresearch/ConvNeXt)] <Br>
+[**ConvNeXt**]
+
 - **ResNeSt: Split-Attention Networks** <Br>
 [Hang Zhang](https://hangzhang.org/), Chongruo Wu, [Zhongyue Zhang](http://zhongyuezhang.com/), [Yi Zhu](https://sites.google.com/view/yizhu/home), Zhi Zhang, [Haibin Lin](https://sites.google.com/view/haibinlin/), [Yue Sun](https://aptsunny.github.io/), [Tong He](https://hetong007.github.io/), [Jonas Muller](https://people.csail.mit.edu/jonasmueller/), R. Manmatha, [Mu Li](https://www.cs.cmu.edu/~muli/), [Alex Smola](http://alex.smola.org/) <Br>
 [arXiv 2004] [[Pytorch-Code](https://github.com/zhanghang1989/ResNeSt)] <Br>
@@ -18,7 +27,8 @@
 - **Gather-Excite: Exploiting Feature Context in Convolutional Neural Networks** <Br>
 Jie Hu, Li Shen, [Samuel Albanie](http://www.robots.ox.ac.uk/~albanie/), Gang Sun, [Andrea Vedaldi](http://www.robots.ox.ac.uk/~vedaldi/) <Br>
 [NIPS 2018] [[https://github.com/hujie-frank/GENet)] <Br>
-[**GENet**] [★☆] 1) 在SENet的基础上, 提出了gather-excite操作. Gather就是收集long-range空间信息的操作, excite就是将gather的信息分配给local feature的操作. 作者认为GE操作可以更有效地挖掘context信息, 并增加feature的可复用性; 
+[**GENet**] [★☆] <Br>
+1) 在SENet的基础上, 提出了gather-excite操作. Gather就是收集long-range空间信息的操作, excite就是将gather的信息分配给local feature的操作. 作者认为GE操作可以更有效地挖掘context信息, 并增加feature的可复用性; 
 2) Gather操作可以有多种形式, 如无参数的average pooling(GE-), 有参数的多级depth-wise卷积(GE), 全局depth-wise卷积(GE+)等. 其中无参数的策略对性能有轻微提升, GE+性能最好, 所需参数最多. Excite操作就是把gather的结果经过scale后与原feature的过程; 
 3) 方法主要在分类任务上进行验证. 思路和做法很简单, 论述方法值得学习. <Br>
 
