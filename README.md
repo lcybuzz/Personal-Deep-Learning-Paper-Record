@@ -10,6 +10,11 @@
 - [Pruning](#pruning)
   
 # Network
+- **Run, Don't Walk: Chasing Higher FLOPS for Faster Neural Networks** <Br>
+[Jierun Chen](https://jierunchen.github.io/), [Shiu-hong Kao](https://cse.hkust.edu.hk/~skao/), Hao He, [Weipeng Zhuo](https://stevezhuo.github.io/), Song Wen, Chul-Ho Lee, S.-H. Gary Chan <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/JierunChen/FasterNet)] <Br>
+[★☆] 部分卷积+恒等映射
+
 - **ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders** <Br>
 [Sanghyun Woo](https://sites.google.com/view/sanghyunwoo/), Shoubhik Debnath, [Ronghang Hu](https://ronghanghu.com/), Xinlei Chen, [Zhuang Liu](https://liuzhuang13.github.io/), In So Kweon,  [Saining Xie](https://www.sainingxie.com/) <Br>
 [arXiv 2301] [[Pytorch-Code](https://github.com/facebookresearch/ConvNeXt-v2)] <Br>
