@@ -126,6 +126,10 @@ Fei Wang, [Mengqing Jiang](https://github.com/Jmq14), Chen Qian, [Shuo Yang](htt
 	
 
 # Pruning
+- **Lossless Training Speed Up by Unbiased Dynamic Data Pruning** <Br>
+Ziheng Qin, [Kai Wang](https://kaiwang960112.github.io/), [Zangwei Zheng](https://zhengzangw.github.io/), [Jianyang Gu](https://vimar-gu.github.io/), Xiangyu Peng, Zhaopan Xu, Daquan Zhou, Lei Shang, Baigui Sun, Xuansong Xie, Yang You <Br>
+[ICLR 2024 Oral] [[PyTorch-Code](https://github.com/NUS-HPC-AI-Lab/InfoBatch)] <Br>
+
 - **Filter Pruning via Geometric Median for Deep Convolutional Neural Network Acceleration** <Br>
 [Yang He](https://he-y.github.io/), [Ping Liu](https://sites.google.com/site/pingliu264/), Ziwei Wang, Zhilan Hu, [Yi Yang](https://www.uts.edu.au/staff/yi.yang) <Br>
 [CVPR 2019 Oral] [[PyTorch-Code](https://github.com/he-y/filter-pruning-geometric-median)] <Br>
